@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Materi PKN</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #ffe6e6; /* Latar belakang merah muda */
+      margin: 0;
+      padding: 0;
+      line-height: 1.8;
+      overflow-x: hidden;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 30px auto;
+      background-color: #ffffff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15); 
+      transform: translateY(50px);
+      opacity: 0;
+      animation: fadeInUp 1.5s ease-out forwards;
+    }
+
+    @keyframes fadeInUp {
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+
+    .header {
+      text-align: center;
+      font-size: 28px;
+      font-weight: bold;
+      margin-bottom: 30px;
+      color: #b71c1c; /* Merah tua */
+      opacity: 0;
+      animation: fadeIn 1s ease-out forwards 0.5s;
+    }
+
+    @keyframes fadeIn {
+      to {
+        opacity: 1;
+      }
+    }
+
+    .content {
+      text-align: justify;
+      font-size: 16px;
+      color: #333;
+      margin-bottom: 30px;
+      opacity: 0;
+      animation: fadeIn 1.5s ease-out forwards 1s;
+    }
+
+    .button-container {
+      text-align: center;
+      margin-top: 40px;
+      opacity: 0;
+      animation: fadeIn 1.5s ease-out forwards 1.5s;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 14px 28px;
+      font-size: 18px;
+      color: #fff;
+      background-color: #b71c1c; /* Merah tua */
+      border: none;
+      border-radius: 8px;
+      box-shadow: 0 8px 18px rgba(0, 0, 0, 0.2); 
+      cursor: pointer;
+      text-decoration: none;
+      transition: background-color 0.4s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .button:hover {
+      background-color: #9b1b1b; /* Merah lebih gelap */
+      transform: translateY(-5px); 
+      box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25); 
+    }
+
+    .button:active {
+      transform: translateY(2px);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        padding: 20px;
+      }
+
+      .header {
+        font-size: 22px;
+      }
+
+      .button {
+        font-size: 16px;
+        padding: 12px 24px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">Tantangan Pendidikan Kewarganegaraan di Era Modern</div>
+    <div class="content">
+      <p>
+        Pendidikan Kewarganegaraan menghadapi tantangan yang semakin kompleks di era modern. Beberapa tantangan utama meliputi:
+      </p>
+      <ul>
+        <li><strong>Penyalahgunaan Teknologi:</strong> Kemajuan teknologi dapat berdampak negatif, seperti penyebaran hoaks, cyberbullying, dan pelanggaran privasi.</li>
+        <li><strong>Radikalisme dan Intoleransi:</strong> Meningkatnya pemikiran ekstrem yang dapat merusak persatuan bangsa.</li>
+        <li><strong>Disintegrasi Sosial:</strong> Konflik antar kelompok atau individu akibat perbedaan budaya, agama, atau pandangan politik.</li>
+      </ul>
+      <p>
+        Untuk menghadapi tantangan tersebut, penting bagi masyarakat untuk mengembangkan literasi digital, memperkuat toleransi, dan memahami pentingnya menjaga keutuhan NKRI. Pendidikan Kewarganegaraan harus terus berkembang agar relevan dengan kebutuhan zaman.
+      </p>
+    </div>
+    <div class="button-container">
+      <a href="mhycka2.html" class="button">Kesimpulan</a>
+    </div>
+  </div>
+</body>
+</html>

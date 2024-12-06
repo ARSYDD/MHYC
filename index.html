@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profil</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #ffebee; /* Latar belakang merah muda lembut */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .container {
+      width: 340px;
+      padding: 30px;
+      background-color: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 12px 20px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      transform: scale(0.95);
+      opacity: 0;
+      animation: fadeIn 1s ease-out forwards;
+    }
+
+    @keyframes fadeIn {
+      to {
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
+
+    .header {
+      font-size: 24px;
+      font-weight: bold;
+      color: #d32f2f; /* Merah gelap */
+      margin-bottom: 15px;
+    }
+
+    .profile-pic {
+      width: 110px;
+      height: 110px;
+      background-color: #e53935; /* Merah terang */
+      border-radius: 50%;
+      margin: 0 auto 15px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+    }
+
+    .profile-pic img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .info {
+      margin-bottom: 25px;
+      font-size: 15px;
+      color: #b71c1c; /* Merah tua */
+    }
+
+    .info p {
+      margin: 7px 0;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 12px 25px;
+      font-size: 16px;
+      color: #fff;
+      background-color: #d32f2f; /* Merah utama */
+      border: none;
+      border-radius: 8px;
+      box-shadow: 0 5px 12px rgba(0, 0, 0, 0.15);
+      cursor: pointer;
+      text-decoration: none;
+      transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+
+    .button:hover {
+      background-color: #b71c1c; /* Merah lebih gelap saat hover */
+      transform: translateY(-4px);
+    }
+
+    .description {
+      margin-top: 20px;
+      font-size: 14px;
+      color: #b71c1c;
+    }
+
+    footer {
+      margin-top: 15px;
+      font-size: 12px;
+      color: #d32f2f;
+    }
+
+    .icon {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 10px;
+    }
+
+    .icon img {
+      width: 30px;
+      height: 30px;
+      margin: 0 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">Profil Mahasiswa</div>
+    <div class="profile-pic">
+      <img src="Mhycka.jpeg" alt="Profile Picture">
+    </div>
+    <div class="info">
+      <p>Nama: Arsyad Nur Hidayat</p>
+      <p>NIM: 24050630003</p>
+      <p>Prodi: Pendidikan Teknik Mekatronika</p>
+  
+    </div>
+  
+    <a href="mhycka.html" class="button">Lihat Selengkapnya</a>
+    <div class="description">Klik tombol di atas untuk informasi lebih lengkap</div>
+    <footer>© 2024 - Pendidikan Teknik Mekatronika</footer>
+  </div>
+</body>
+</html>
